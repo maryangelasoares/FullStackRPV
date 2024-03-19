@@ -1,0 +1,102 @@
+.item1 { grid-area: header; }
+.item3 { grid-area: main; }
+.item2 { grid-area: empty; }
+.item4 { grid-area: sidebar; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header '
+    'main main empty sidebar '
+    'footer footer footer footer ';
+  gap: 10px;
+  padding: 10px;
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.item1 
+    {
+        border:15px solid #dba052;
+        border-radius:10px;
+        border-style: outset;
+        display:inline-block;
+        cursor:pointer;
+        font-family:Verdana;
+        font-weight:bold;
+        font-size:13px;
+        padding:6px 10px;
+        text-decoration:none;
+        background-color: orange;
+        color: white;
+    }
+    
+.item2
+{
+    border:15px solid #f5f6f8;
+    border-radius:10px;
+    border-style: outset;
+    display:inline-block;
+    cursor:pointer;
+    font-family:Verdana;
+    font-weight:bold;
+    font-size:13px;
+    padding:6px 10px;
+    text-decoration:none;
+    background-color: white;
+    color: grey;
+    
+}
+
+.item3 
+    {
+        border:15px solid #4d79b9;
+        border-radius:10px;
+        border-style: outset;
+        display:inline-block;
+        cursor:pointer;
+        font-family:Verdana;
+        font-weight:bold;
+        font-size:13px;
+        padding:6px 10px;
+        text-decoration:none;
+        background-color: blue;
+        color: white;
+    }
+    
+.item4 
+{
+    border:15px solid #f59d9a;
+    border-radius:10px;
+    border-style: outset;
+    display:inline-block;
+    cursor:pointer;
+    font-family:Verdana;
+    font-weight:bold;
+    font-size:13px;
+    padding:6px 10px;
+    text-decoration:none;
+    background-color: rgb(212, 121, 121);
+    color: white;
+}
+
+.item5
+    {
+        border:15px solid #39b161;
+        border-radius:10px;
+        border-style: outset;
+        display:inline-block;
+        cursor:pointer;
+        font-family:Verdana;
+        font-weight:bold;
+        font-size:13px;
+        padding:6px 10px;
+        text-decoration:none;
+        background-color: green ;
+        color: white;
+    }
