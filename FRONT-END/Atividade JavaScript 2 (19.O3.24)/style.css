@@ -1,0 +1,52 @@
+/* style.css */
+
+/* Estilos para o corpo do documento */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Estilos para os links */
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #666;
+}
+
+/* Estilos para as seções */
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para os títulos */
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para as imagens */
+img {
+    max-width: 100%;
+    height: auto;
+}
