@@ -1,4 +1,4 @@
-# FRONT-EDN | FullStack | RPV
+# FRONT-END | FullStack | RPV
 
 📚 | Este repositório serve como um espaço de aprendizado, onde compartilho materias, anotações e projetos relacionados a este curso! 
 
